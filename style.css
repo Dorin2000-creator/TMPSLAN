@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: #333;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+#products > div,
+#cart > div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#adapterTestOutput {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #F6F6F6;
+}
